@@ -1,0 +1,39 @@
+/* ------------------------------------------------------------- */
+body{
+    background-color: white;
+}
+  .about-section{
+    margin: 0.3vw 6vw;
+  }
+
+  .about-container{
+    display: flex;
+    flex-direction: row;
+  }
+  .about-img{
+    height:50%;
+    width:20%;
+    transition: .5s ease;
+    border-width:10px;
+    border-radius: 5px;
+    border-color: #9dd3af;
+  }
+    .about-para{
+      margin:0 3vw;
+      font-size: 0.95rem;
+    }
+  @media (max-width:1010px) {
+    .about-img{
+      display: none;
+    }
+    
+    .about-heading h2{
+      font-size: 1.5rem;
+    }
+  
+    .about-para{
+      font-size: 2rem;
+      margin: 0;
+    }
+  }
+ 
